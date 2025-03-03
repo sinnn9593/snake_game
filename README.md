@@ -48,6 +48,7 @@ python main.py
 
 
 ##ファイル構成 📂
+```text
 snake_game/
 │
 ├── main.py           # ゲームのメインロジック
@@ -59,7 +60,7 @@ snake_game/
 │   ├── BGM1.mp3      # ゲーム中のBGM
 │   └── effect1.wav   # 衝突時の効果音
 └── README.md         # 説明書（このファイル）
-
+```
 #カスタマイズ方法 🛠️
 ゲーム速度を変更する
 main.py 内の Game クラスの speed パラメータを変更することで、ゲーム速度を調整できます。
